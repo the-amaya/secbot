@@ -10,8 +10,10 @@
 	<img alt="Scrutinizer code quality (GitHub/Bitbucket)" src="https://img.shields.io/scrutinizer/quality/g/the-amaya/secbot?style=plastic">
 </p>
 
+![cam](https://raw.githubusercontent.com/the-amaya/secbot/main/demo/cam.svg | width=64)
+
  framegrab reolink cameras in discord
 
-![nested silkscreen](https://raw.githubusercontent.com/the-amaya/secbot/main/demo/example.png)
+![usage example](https://raw.githubusercontent.com/the-amaya/secbot/main/demo/example.png)
 
 this bot will grab an image from a reolink camera and attache the image to a discord message as shown above

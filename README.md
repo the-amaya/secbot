@@ -17,3 +17,5 @@
 ![usage example](https://raw.githubusercontent.com/the-amaya/secbot/main/demo/example.png)
 
 this bot will grab an image from a reolink camera and attache the image to a discord message as shown above
+
+<div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>

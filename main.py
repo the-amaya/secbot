@@ -27,11 +27,8 @@ class MyClient(discord.Client):
 		if len(messageContent) > 0:
 			for word in word_list:
 				if word == messageContent:
-					#img = PImage.open(path + image)
 					img_file = urlopen('http://' + cameras.get(messageContent) + '/cgi-bin/api.cgi?cmd=Snap&channel=0&rs=wuuPhkmUCeI9WG7C&user=admin&password=camera')
 					img = Image.open(img_file)
-					#await message.channel.to_file(img)
-					#await message.channel.send(file=discord.File(fp=img, filename='image.png'))
 					img.save('img.png')
 					await message.channel.send(file=discord.File('img.png'))
 			if messageContent == 'list':

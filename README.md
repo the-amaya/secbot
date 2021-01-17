@@ -11,3 +11,7 @@
 </p>
 
  framegrab reolink cameras in discord
+
+![nested silkscreen](https://raw.githubusercontent.com/the-amaya/secbot/main/demo/example.png)
+
+this bot will grab an image from a reolink camera and attache the image to a discord message as shown above

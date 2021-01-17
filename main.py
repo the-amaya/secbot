@@ -17,7 +17,7 @@ class MyClient(discord.Client):
 		print('Logged on as', self.user)
 
 	async def on_message(self, message):
-		word_list = ['driveway', 'porch', 'backdeck', 'mudroom', 'racoon']
+		word_list = list(cameras.keys())
 
 		# don't respond to ourselves
 		if message.author == self.user:

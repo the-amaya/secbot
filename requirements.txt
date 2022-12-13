@@ -1,2 +1,7 @@
 discord.py
 image
+mcstatus
+yfinance
+matplotlib
+fabric
+texttable

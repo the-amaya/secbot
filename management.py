@@ -4,6 +4,8 @@ from urllib.request import urlopen
 from PIL import Image
 
 
+# dict with friendly camera names and their IP
+
 cameras = {
     'camera1': '10.0.0.11',
     'camera2': '10.0.0.12',
@@ -12,6 +14,9 @@ cameras = {
     'camera5': '10.0.0.15',
     'camera6': '10.0.0.16',
 }
+
+# TODO move the camera URL parts up here to variables to make it easier to use other cameras
+
 
 class Management(commands.Cog):
     def __init__(self, bot):

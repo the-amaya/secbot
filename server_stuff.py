@@ -29,14 +29,14 @@ class Server_Stuff(commands.Cog):
                 await ctx.send(f'valid servers are: {server_list}')
 
 
-    @commands.command(name='badhealth', help='get a list of non-OK arrays from all the servers')
+    @commands.command(name='badarray', help='get a list of non-OK arrays from all the servers')
     async def badarray(self, ctx):
         async with ctx.typing():
             await ctx.send(await drivewatch.all_status())
 
 
-    @commands.command(name='drivehealth', help='get a list of non-OK drives from one of the servers')
-    async def drivehealth(self, ctx, server=''):
+    @commands.command(name='baddrive', help='get a list of non-OK drives from one of the servers')
+    async def baddrive(self, ctx, server=''):
         async with ctx.typing():
             if server in server_list:
                 await ctx.send(await drivewatch.drive_status(server))

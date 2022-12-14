@@ -30,6 +30,7 @@
 
 ### The `general` cog
 ![usage example](https://raw.githubusercontent.com/the-amaya/secbot/main/demo/general_cog.png)
+
 This cog contains general commands and functions, currently the stats command and the event listener for it.
 Eventually this will be split off into a `stats` cog.
 
@@ -41,6 +42,7 @@ Eventually this will be split off into a `stats` cog.
 
 ### The `management` cog
 ![usage example](https://raw.githubusercontent.com/the-amaya/secbot/main/demo/management_cog.png)
+
 This cog performs 'management' functions, this is currently limited to the camera frame grabber,
 but will eventually include other network/control/iot/automation functions
 
@@ -52,6 +54,7 @@ but will eventually include other network/control/iot/automation functions
 
 ### the `server_stuff` cog
 ![usage example](https://raw.githubusercontent.com/the-amaya/secbot/main/demo/server_cog.png)
+
 This cog retrieves RAID and drive status information from a remote server (using fabric for ssh)
 
 Currently this supports getting drive status from servers using 3ware raid controllers compatible with `tw-cli`

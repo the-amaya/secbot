@@ -18,9 +18,13 @@ cameras = {
 # TODO move the camera URL parts up here to variables to make it easier to use other cameras
 
 
-class Management(commands.Cog):
+class Cameras(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
+
+    @commands.Cog.listener()
+    async def on_ready(self):
+        print('Cog management is ready.')
 
     @commands.command(name='camera', help='View a still frame from one of the cameras')
     async def camera(self, ctx, cam='list'):
@@ -40,5 +44,6 @@ class Management(commands.Cog):
             else:
                 await ctx.send(f'that is not a valid camera, please try again. valid cameras are {clist}')
 
+
 async def setup(bot):
-    await bot.add_cog(Management(bot))
+    await bot.add_cog(Cameras(bot))

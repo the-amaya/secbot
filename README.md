@@ -28,6 +28,9 @@
 
 ## Cogs
 
+\# TODO update the cogs section.
+
+
 ### The `general` cog
 ![usage example](https://raw.githubusercontent.com/the-amaya/secbot/main/demo/general_cog.png)
 

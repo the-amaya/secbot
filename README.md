@@ -64,6 +64,8 @@ this cog provides functions to load, unload and reload other cogs
 ### The `stats` cog
 This cog tracks user and server stats
 
+![usage example](https://raw.githubusercontent.com/the-amaya/secbot/main/demo/stats_cog.png)
+
 ### The `sump` cog
 This cog is designed to interface with https://github.com/the-amaya/sumpPump
 
@@ -72,8 +74,6 @@ This cog provides basic utilities, currently ping and the about command
 
 ### The `weather` cog
 This cog provides weather related commands including radar and forecast
-
-![usage example](https://raw.githubusercontent.com/the-amaya/secbot/main/demo/stats_cog.png)
 
 
 ## requirements

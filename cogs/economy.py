@@ -1,6 +1,13 @@
 import discord
 from discord.ext import commands
 
+### TODO major rewrite needed
+
+# TODO fix help messages
+# TODO add currency generation
+# TODO add other ways to earn currency (dailys? -maybe just being active? maybe a silent background coins per message?)
+# TODO currency should be using a database, other cogs will likely need access to it
+
 
 class Economy(commands.Cog):
     def __init__(self, bot):

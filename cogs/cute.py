@@ -2,6 +2,8 @@ import discord
 from discord.ext import commands
 import random
 
+# TODO extend functionality
+
 
 class CuteCog(commands.Cog):
     def __init__(self, bot):
@@ -11,7 +13,7 @@ class CuteCog(commands.Cog):
     async def on_ready(self):
         print('Cog cute is ready.')
 
-    @commands.command(name='ratecute', alias=['iscute'], help='Rate how cute a user is')
+    @commands.command(name='ratecute', alias=['iscute'])
     async def ratecute(self, ctx, user: discord.User):
         """Rate how 'cute' a user is"""
         ratings = [

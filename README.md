@@ -14,82 +14,75 @@
 
 <img src="https://raw.githubusercontent.com/the-amaya/secbot/main/demo/cam.svg"  width="64" height="64">
 
-### Features
-- Track user stats in a sqlite3 database, respond with various stats on command `stats`
-- Grab and reply with a still image from a reolink camera on command `camera`
-- Check various RAID and drive health details using tw-cli (more info in the `server_stuff` cog section below)
+## setup/install
+#### automatic install:
+you can try using the included setup scripts, they may or may not work and are untested as of me writing this.
 
-
-### Upcoming features
-- more function to the stats commands
-- more camera support, or at least, easier support for other cameras
-- support for more RAID controllers
-
+#### manual install:
+download this repository, install the requirements from requirements.txt and run main.py
 
 ## Cogs
+- botsettings
+- cameras
+- custom_reactions
+- cute
+- economy
+- games
+- generate
+- loadunloadcogs
+- stats
+- sump
+- utilities
+- weather
 
-\# TODO update the cogs section.
+### The `BotSettings` cog
+this cog includes functions to view/edit bot settings (not fully functional)
 
+### The `cameras` cog
+grab still images from a reolink camera
 
-### The `general` cog
-![usage example](https://raw.githubusercontent.com/the-amaya/secbot/main/demo/general_cog.png)
+![usage example](https://raw.githubusercontent.com/the-amaya/secbot/main/demo/camera_cog.png)
 
-This cog contains general commands and functions, currently the stats command and the event listener for it.
-Eventually this will be split off into a `stats` cog.
+### The `custom_reactions` cog
+this cog includes commands to setup and manage custom reactions
 
-#### Commands:
-`stats`
-* takes no arguments.
-* replies with the number of messages the calling user has sent.
+### The `cute` cog
+this cog will rate how 'cute' a user is
 
+### The `economy` cog
+this cog doesnt do much yet, but its commands all work
 
-### The `management` cog
-![usage example](https://raw.githubusercontent.com/the-amaya/secbot/main/demo/management_cog.png)
+### The `games` cog
+this cog currently just has the 8ball but will eventually have other games
 
-This cog performs 'management' functions, this is currently limited to the camera frame grabber,
-but will eventually include other network/control/iot/automation functions
+### The `generate` cog
+this cog interfaces with a stable diffusion API to generate images from prompts
 
-#### Commands:
-`camera`
-* takes one argument {camera name}
-* if called with 'list' as the argument (or without any argument) will return a list of valid cameras
+### The `loadunloadcogs` cog
+this cog provides functions to load, unload and reload other cogs
 
+### The `stats` cog
+This cog tracks user and server stats
 
-### the `server_stuff` cog
-![usage example](https://raw.githubusercontent.com/the-amaya/secbot/main/demo/server_cog.png)
+### The `sump` cog
+This cog is designed to interface with https://github.com/the-amaya/sumpPump
 
-This cog retrieves RAID and drive status information from a remote server (using fabric for ssh)
+### The `utilities` cog
+This cog provides basic utilities, currently ping and the about command
 
-Currently this supports getting drive status from servers using 3ware raid controllers compatible with `tw-cli`
+### The `weather` cog
+This cog provides weather related commands including radar and forecast
 
-tw-cli is available for linux systems from the folks over at https://hwraid.le-vert.net/ -
-I have plans to add support for megaRAID cards soon™
-
-#### Commands:
-`servers`
-* takes no arguments
-* prints a formatted table of the physical layout of the drives in each server
-with the drive temperature and reallocated sector count
-
-`racsec`
-* takes one argument {server name}
-* get a list of drives with reallocated sectors on a specified server
-
-`badarray`
-* takes no arguments
-* get a list of non-OK arrays from all the servers
-
-`baddrive`
-* takes one argument {server name}
-* get a list of non-OK drives from one of the servers
+![usage example](https://raw.githubusercontent.com/the-amaya/secbot/main/demo/stats_cog.png)
 
 
 ## requirements
-Beyond the required packages listed in requirements.txt in order to use the `server_stuff` cog the remote server(s)
-need `tw-cli` installed. You can get it for debian/ubuntu here https://hwraid.le-vert.net/
+Beyond the required packages listed in requirements.txt some cogs depend on additional settings and external APIs
+These cogs are disabled by default but can be enabled by editing main.py and simply uncommenting the lines
 
-I am using private keys for SSH access with fabric,
-and I added tw-cli to the sudo file so it can be run without a password prompt.
+- cameras - works for reolink cameras
+- generate - relies on a private hosted stable diffusion api. see https://github.com/AUTOMATIC1111/stable-diffusion-webui
+- sump - relies on my sump pump monitoring project https://github.com/the-amaya/sumpPump (which is likely not updated)
 
 
 ## external attributions

@@ -2,6 +2,8 @@ import discord
 from discord.ext import commands
 import random
 
+# TODO more functionality
+
 
 class Games(commands.Cog):
 
@@ -12,8 +14,11 @@ class Games(commands.Cog):
     async def on_ready(self):
         print('Cog games is ready.')
 
-    @commands.command(name='8ball', aliases=['eight_ball', 'eightball', '8_ball'], help='ask the 8ball a question')
+    @commands.command(name='8ball', aliases=['eight_ball', 'eightball', '8_ball'])
     async def eight_ball(self, ctx):
+        """
+        ask the 8ball a question
+        """
         responses = [
             'It is certain.',
             'It is decidedly so.',

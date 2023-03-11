@@ -4,6 +4,7 @@ import time
 import sqlite3
 
 # TODO ping needs moved out of this cog. maybe into a utility cog
+# TODO fix the user stats to be per-server
 
 conn = sqlite3.connect('stats.db')
 c = conn.cursor()
@@ -21,7 +22,7 @@ c.execute("""CREATE TABLE IF NOT EXISTS server_stats (
 )""")
 
 
-class StatsCog(commands.Cog):
+class Stats(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
 
@@ -53,20 +54,12 @@ class StatsCog(commands.Cog):
         stats_embed.add_field(name="Messages Sent", value=result[1])
         await ctx.send(embed=stats_embed)
 
-    @commands.command(name='ping', help='check the bot is responding as well as its latency')
-    async def ping(self, ctx):
-        try:
-            latency = self.bot.latency * 1000
-        except:
-            latency = '-latency-'
-        await ctx.send(f'Pong! 🏓 {latency:.2f} ms')
-
     @commands.command(name='botstats')
     async def botstats(self, ctx):
         """Display bot statistics"""
         guilds = len(self.bot.guilds)
         members = len(list(self.bot.get_all_members()))
-        channels = len([c for c in self.bot.get_all_channels()])
+        channels = len([d for d in self.bot.get_all_channels()])
         uptime = await self.pretty_time_delta(time.time() - self.bot.start_time)
         latency = self.bot.latency * 1000
         # Display stats
@@ -95,4 +88,4 @@ class StatsCog(commands.Cog):
 
 
 async def setup(bot):
-    await bot.add_cog(StatsCog(bot))
+    await bot.add_cog(Stats(bot))

@@ -5,23 +5,28 @@ import configparser
 import time
 
 # dont change these values, go to settings.ini for all the user-configurable stuff
+
 config = configparser.ConfigParser()
 config.read('settings.ini')
-command_character = config["main bot settings"]["command_character"]
-token = config["main bot settings"]["token"]
+command_character = config["main_bot_settings"]["command_character"]
+token = config["main_bot_settings"]["token"]
 
 intents = discord.Intents.all()
 bot = commands.Bot(command_character, intents=intents)
 
 startup_extensions = [
-    "cogs.cameras",
-    "cogs.serverstuff",
-    "cogs.loadunloadcogs",
     "cogs.botsettings",
+    #"cogs.cameras",
+    "cogs.custom_reactions",
     "cogs.cute",
     "cogs.economy",
     "cogs.games",
-    "cogs.stats"
+    #"cogs.generate",
+    "cogs.loadunloadcogs",
+    "cogs.stats",
+    #"cogs.sump",
+    "cogs.utilities",
+    "cogs.weather"
 ]
 
 

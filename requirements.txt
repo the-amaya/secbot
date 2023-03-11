@@ -4,3 +4,7 @@ fabric~=2.7.1
 texttable~=1.6.7
 aiohttp~=3.8.3
 Pillow~=9.3.0
+pgeocode~=0.4.0
+requests~=2.28.1
+numpy~=1.24.2
+pandas~=1.5.3

@@ -18,7 +18,7 @@
 #### automatic install:
 ###### ubuntu 22.04:
 1. Log in as the user you want the bot to run as. the bot will be installed in `~/secbot`
-2. run `wget -O - https://raw.githubusercontent.com/the-amaya/secbot/main/setup.sh | bash`
+2. run the installation script with `bash <(curl https://raw.githubusercontent.com/the-amaya/secbot/main/setup.sh)`
 3. the setup script will check to see if you have python3 and python3-venv available, and if not will attempt to install them (the script will prompt for a sudo password to perform the `apt` install)
 4. the script will then clone the github project or update it if it is already downloaded and then run main.py
 5. for subsequent runs of the bot run `bash ~/secbot/setup.sh` this will check for updates and start the bot.

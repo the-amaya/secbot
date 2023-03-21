@@ -11,7 +11,7 @@ def first_run():
     if not os.path.exists("settings.ini"):
         print('\n\n\n\n\n\n###\n')
         print(f"Welcome to secbot! We need to configure some settings before the bot can start. I will ask you for "
-              f"each setting in the config file. the only setting absolutely required is the bot token.")
+              f"each setting in the config file. the only setting absolutely required is the bot token.\n")
 
         # read the sample config from example_settings.ini using the configparser module
         first_run_config = configparser.ConfigParser()

@@ -26,7 +26,7 @@ if [ "" == "$python3_venv_installed" ]; then
 fi
 
 # Create virtual environment and install requirements
-cd $INSTALL_DIR
+cd ~/$INSTALL_DIR
 python3 -m venv env
 source env/bin/activate
 pip install -r requirements.txt

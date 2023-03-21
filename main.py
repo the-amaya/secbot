@@ -9,6 +9,7 @@ import os
 def first_run():
     # check for the existence of the settings.ini file
     if not os.path.exists("settings.ini"):
+        print('\n\n\n\n\n\n###\n')
         print(f"Welcome to secbot! We need to configure some settings before the bot can start. I will ask you for "
               f"each setting in the config file. the only setting absolutely required is the bot token.")
 

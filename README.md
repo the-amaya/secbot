@@ -49,13 +49,15 @@ this cog includes functions to view/edit bot settings (the edit settings command
 
 ![usage example](https://raw.githubusercontent.com/the-amaya/secbot/main/demo/botsettings.png)
 
+![usage example](https://raw.githubusercontent.com/the-amaya/secbot/main/demo/botsettings2.png)
+
 ### The `cameras` cog
 grab still images from a reolink camera. this cog is disabled by default. to enable it edit main.py and uncomment it.
 
 ![usage example](https://raw.githubusercontent.com/the-amaya/secbot/main/demo/cameras.png)
 
 ### The `custom_reactions` cog
-this cog provides custom reactions on trigger words and includes commands to setup and manage the custom reactions
+this cog provides custom reactions on trigger words and includes commands to set up and manage the custom reactions
 
 ![usage example](https://raw.githubusercontent.com/the-amaya/secbot/main/demo/custom_reactions.png)
 

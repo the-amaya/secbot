@@ -16,11 +16,13 @@ fi
 # Check if python3 and python3-venv are installed
 if ! [ -x "$(command -v python3)" ]; then
   sudo NEEDRESTART_SUSPEND=True apt install python3 python3-venv -y
+  sudo unset NEEDRESTART_SUSPEND
 fi
 python3_venv_installed=$(dpkg-query -W --showformat='${Status}\n' python3-venv|grep "install ok installed")
 if [ "" == "$python3_venv_installed" ]; then
     # Install python3-venv
     sudo NEEDRESTART_SUSPEND=True apt install python3-venv -y
+    sudo unset NEEDRESTART_SUSPEND
 fi
 
 # Create virtual environment and install requirements

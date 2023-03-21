@@ -1,0 +1,2405 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1155998,
+          -66.0780644
+        ]
+      },
+      "properties": {
+        "icao": "TJUA",
+        "name": "San Juan",
+        "state": "PR"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.0391944,
+          -67.8066033
+        ]
+      },
+      "properties": {
+        "icao": "KCBW",
+        "name": "Houlton",
+        "state": "ME"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.8913555,
+          -70.2565545
+        ]
+      },
+      "properties": {
+        "icao": "KGYX",
+        "name": "Gray/Portland",
+        "state": "ME"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.5109941,
+          -73.166424
+        ]
+      },
+      "properties": {
+        "icao": "KCXX",
+        "name": "Burlington",
+        "state": "VT"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.9558919,
+          -71.1369681
+        ]
+      },
+      "properties": {
+        "icao": "KBOX",
+        "name": "Boston",
+        "state": "MA"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.5865699,
+          -74.0639877
+        ]
+      },
+      "properties": {
+        "icao": "KENX",
+        "name": "Albany",
+        "state": "NY"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.1997045,
+          -75.9847015
+        ]
+      },
+      "properties": {
+        "icao": "KBGM",
+        "name": "Binghamton",
+        "state": "NY"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.9488055,
+          -78.7369108
+        ]
+      },
+      "properties": {
+        "icao": "KBUF",
+        "name": "Buffalo",
+        "state": "NY"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.7556319,
+          -75.6799918
+        ]
+      },
+      "properties": {
+        "icao": "KTYX",
+        "name": "Montague",
+        "state": "NY"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.8655093,
+          -72.8638548
+        ]
+      },
+      "properties": {
+        "icao": "KOKX",
+        "name": "New York City",
+        "state": "NY"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.8257651,
+          -75.4400763
+        ]
+      },
+      "properties": {
+        "icao": "KDOX",
+        "name": "Dover AFB",
+        "state": "DE"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.9470885,
+          -74.4108027
+        ]
+      },
+      "properties": {
+        "icao": "KDIX",
+        "name": "Philadelphia",
+        "state": "PA"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.5316842,
+          -80.2179515
+        ]
+      },
+      "properties": {
+        "icao": "KPBZ",
+        "name": "Pittsburgh",
+        "state": "PA"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.9228521,
+          -78.0038738
+        ]
+      },
+      "properties": {
+        "icao": "KCCX",
+        "name": "State College",
+        "state": "PA"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.3110763,
+          -81.7229015
+        ]
+      },
+      "properties": {
+        "icao": "KRLX",
+        "name": "Charleston",
+        "state": "WV"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.9840475,
+          -77.007342
+        ]
+      },
+      "properties": {
+        "icao": "KAKQ",
+        "name": "Norfolk/Richmond",
+        "state": "VA"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.0242098,
+          -80.2736664
+        ]
+      },
+      "properties": {
+        "icao": "KFCX",
+        "name": "Roanoke",
+        "state": "VA"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.9753957,
+          -77.4778444
+        ]
+      },
+      "properties": {
+        "icao": "KLWX",
+        "name": "Sterling",
+        "state": "VA"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7759313,
+          -76.8762571
+        ]
+      },
+      "properties": {
+        "icao": "KMHX",
+        "name": "Morehead City",
+        "state": "NC"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.6654967,
+          -78.4897855
+        ]
+      },
+      "properties": {
+        "icao": "KRAX",
+        "name": "Raleigh/Durham",
+        "state": "NC"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.9891631,
+          -78.4291059
+        ]
+      },
+      "properties": {
+        "icao": "KLTX",
+        "name": "Wilmington",
+        "state": "NC"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.6554866,
+          -81.0423124
+        ]
+      },
+      "properties": {
+        "icao": "KCLX",
+        "name": "Charleston",
+        "state": "SC"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.9487579,
+          -81.1184281
+        ]
+      },
+      "properties": {
+        "icao": "KCAE",
+        "name": "Columbia",
+        "state": "SC"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8833435,
+          -82.2200757
+        ]
+      },
+      "properties": {
+        "icao": "KGSP",
+        "name": "Greer",
+        "state": "SC"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3635771,
+          -84.565866
+        ]
+      },
+      "properties": {
+        "icao": "KFFC",
+        "name": "Atlanta",
+        "state": "GA"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.8903853,
+          -83.0019021
+        ]
+      },
+      "properties": {
+        "icao": "KVAX",
+        "name": "Moody AFB",
+        "state": "GA"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.6755239,
+          -83.3508575
+        ]
+      },
+      "properties": {
+        "icao": "KJGX",
+        "name": "Robins AFB",
+        "state": "GA"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.5649908,
+          -85.921559
+        ]
+      },
+      "properties": {
+        "icao": "KEVX",
+        "name": "Eglin AFB",
+        "state": "FL"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.4846878,
+          -81.7018917
+        ]
+      },
+      "properties": {
+        "icao": "KJAX",
+        "name": "Jacksonville",
+        "state": "FL"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5974996,
+          -81.7032355
+        ]
+      },
+      "properties": {
+        "icao": "KBYX",
+        "name": "Key West",
+        "state": "FL"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.1131808,
+          -80.6540988
+        ]
+      },
+      "properties": {
+        "icao": "KMLB",
+        "name": "Melbourne",
+        "state": "FL"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.6111275,
+          -80.412747
+        ]
+      },
+      "properties": {
+        "icao": "KAMX",
+        "name": "Miami",
+        "state": "FL"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.397568,
+          -84.3289116
+        ]
+      },
+      "properties": {
+        "icao": "KTLH",
+        "name": "Tallahassee",
+        "state": "FL"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.7054701,
+          -82.40179
+        ]
+      },
+      "properties": {
+        "icao": "KTBW",
+        "name": "Tampa",
+        "state": "FL"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.1722806,
+          -86.7698425
+        ]
+      },
+      "properties": {
+        "icao": "KBMX",
+        "name": "Birmingham",
+        "state": "AL"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.4605622,
+          -85.4592401
+        ]
+      },
+      "properties": {
+        "icao": "KEOX",
+        "name": "Fort Rucker",
+        "state": "AL"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.930508,
+          -86.0837388
+        ]
+      },
+      "properties": {
+        "icao": "KHTX",
+        "name": "Huntsville",
+        "state": "AL"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.5366608,
+          -85.7897848
+        ]
+      },
+      "properties": {
+        "icao": "KMXX",
+        "name": "Maxwell AFB",
+        "state": "AL"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.6795378,
+          -88.2397816
+        ]
+      },
+      "properties": {
+        "icao": "KMOB",
+        "name": "Mobile",
+        "state": "AL"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.2797358,
+          -89.9846309
+        ]
+      },
+      "properties": {
+        "icao": "KDGX",
+        "name": "Brandon/Jackson",
+        "state": "MS"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.8967796,
+          -88.3293915
+        ]
+      },
+      "properties": {
+        "icao": "KGWX",
+        "name": "Columbus AFB",
+        "state": "MS"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.168538,
+          -83.401779
+        ]
+      },
+      "properties": {
+        "icao": "KMRX",
+        "name": "Knoxville/Tri Cities",
+        "state": "TN"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.3447802,
+          -89.8734534
+        ]
+      },
+      "properties": {
+        "icao": "KNQA",
+        "name": "Memphis",
+        "state": "TN"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.2472389,
+          -86.5625185
+        ]
+      },
+      "properties": {
+        "icao": "KOHX",
+        "name": "Nashville",
+        "state": "TN"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.7368894,
+          -87.2854328
+        ]
+      },
+      "properties": {
+        "icao": "KHPX",
+        "name": "Fort Campbell",
+        "state": "KY"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.590762,
+          -83.313039
+        ]
+      },
+      "properties": {
+        "icao": "KJKL",
+        "name": "Jackson",
+        "state": "KY"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.9753058,
+          -85.9438455
+        ]
+      },
+      "properties": {
+        "icao": "KLVX",
+        "name": "Louisville",
+        "state": "KY"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.0683618,
+          -88.7720257
+        ]
+      },
+      "properties": {
+        "icao": "KPAH",
+        "name": "Paducah",
+        "state": "KY"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.42028,
+          -83.82167
+        ]
+      },
+      "properties": {
+        "icao": "KILN",
+        "name": "Wilmington",
+        "state": "OH"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.4131875,
+          -81.8597451
+        ]
+      },
+      "properties": {
+        "icao": "KCLE",
+        "name": "Cleveland",
+        "state": "OH"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.6999677,
+          -83.471809
+        ]
+      },
+      "properties": {
+        "icao": "KDTX",
+        "name": "Detroit/Pontiac",
+        "state": "MI"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.907106,
+          -84.719817
+        ]
+      },
+      "properties": {
+        "icao": "KAPX",
+        "name": "Gaylord",
+        "state": "MI"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.893872,
+          -85.5449206
+        ]
+      },
+      "properties": {
+        "icao": "KGRR",
+        "name": "Grand Rapids",
+        "state": "MI"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.5311443,
+          -87.5487131
+        ]
+      },
+      "properties": {
+        "icao": "KMQT",
+        "name": "Marquette",
+        "state": "MI"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.2603901,
+          -87.7246553
+        ]
+      },
+      "properties": {
+        "icao": "KVWX",
+        "name": "Owensville (Evansville)",
+        "state": "IN"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.7074962,
+          -86.2803675
+        ]
+      },
+      "properties": {
+        "icao": "KIND",
+        "name": "Indianapolis",
+        "state": "IN"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.3586356,
+          -85.7000488
+        ]
+      },
+      "properties": {
+        "icao": "KIWX",
+        "name": "North Webster",
+        "state": "IN"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.6044264,
+          -88.084361
+        ]
+      },
+      "properties": {
+        "icao": "KLOT",
+        "name": "Chicago",
+        "state": "IL"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.150544,
+          -89.336842
+        ]
+      },
+      "properties": {
+        "icao": "KILX",
+        "name": "Lincoln",
+        "state": "IL"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.4984644,
+          -88.111124
+        ]
+      },
+      "properties": {
+        "icao": "KGRB",
+        "name": "Green Bay",
+        "state": "WI"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.822766,
+          -91.1915767
+        ]
+      },
+      "properties": {
+        "icao": "KARX",
+        "name": "La Crosse",
+        "state": "WI"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.9678286,
+          -88.5506335
+        ]
+      },
+      "properties": {
+        "icao": "KMKX",
+        "name": "Milwaukee",
+        "state": "WI"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.8368569,
+          -92.2097433
+        ]
+      },
+      "properties": {
+        "icao": "KDLH",
+        "name": "Duluth",
+        "state": "MN"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.8488029,
+          -93.5654873
+        ]
+      },
+      "properties": {
+        "icao": "KMPX",
+        "name": "Minneapolis/St. Paul",
+        "state": "MN"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.611556,
+          -90.5809987
+        ]
+      },
+      "properties": {
+        "icao": "KDVN",
+        "name": "Davenport",
+        "state": "IA"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.7311788,
+          -93.7229235
+        ]
+      },
+      "properties": {
+        "icao": "KDMX",
+        "name": "Des Moines",
+        "state": "IA"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.8102231,
+          -94.2644924
+        ]
+      },
+      "properties": {
+        "icao": "KEAX",
+        "name": "Kansas City",
+        "state": "MO"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.235223,
+          -93.4006011
+        ]
+      },
+      "properties": {
+        "icao": "KSGF",
+        "name": "Springfield",
+        "state": "MO"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.6986863,
+          -90.682877
+        ]
+      },
+      "properties": {
+        "icao": "KLSX",
+        "name": "St. Louis",
+        "state": "MO"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.2904423,
+          -94.3619075
+        ]
+      },
+      "properties": {
+        "icao": "KSRX",
+        "name": "Fort Smith",
+        "state": "AR"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8365261,
+          -92.2621697
+        ]
+      },
+      "properties": {
+        "icao": "KLZK",
+        "name": "Little Rock",
+        "state": "AR"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1556923,
+          -92.9762596
+        ]
+      },
+      "properties": {
+        "icao": "KPOE",
+        "name": "Fort Polk",
+        "state": "LA"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.125382,
+          -93.2161188
+        ]
+      },
+      "properties": {
+        "icao": "KLCH",
+        "name": "Lake Charles",
+        "state": "LA"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.3367133,
+          -89.8256618
+        ]
+      },
+      "properties": {
+        "icao": "KLIX",
+        "name": "New Orleans",
+        "state": "LA"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.450813,
+          -93.8412774
+        ]
+      },
+      "properties": {
+        "icao": "KSHV",
+        "name": "Shreveport",
+        "state": "LA"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.2334827,
+          -101.7092478
+        ]
+      },
+      "properties": {
+        "icao": "KAMA",
+        "name": "Amarillo",
+        "state": "TX"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.7039802,
+          -98.028506
+        ]
+      },
+      "properties": {
+        "icao": "KEWX",
+        "name": "Austin/San Antonio",
+        "state": "TX"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.9159979,
+          -97.4189526
+        ]
+      },
+      "properties": {
+        "icao": "KBRO",
+        "name": "Brownsville",
+        "state": "TX"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.7840203,
+          -97.511234
+        ]
+      },
+      "properties": {
+        "icao": "KCRP",
+        "name": "Corpus Christi",
+        "state": "TX"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.5730186,
+          -97.3031911
+        ]
+      },
+      "properties": {
+        "icao": "KFWS",
+        "name": "Dallas/Ft. Worth",
+        "state": "TX"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.5386009,
+          -99.2542863
+        ]
+      },
+      "properties": {
+        "icao": "KDYX",
+        "name": "Dyess AFB",
+        "state": "TX"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.8731115,
+          -106.697942
+        ]
+      },
+      "properties": {
+        "icao": "KEPZ",
+        "name": "El Paso",
+        "state": "TX"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.7217637,
+          -97.3829627
+        ]
+      },
+      "properties": {
+        "icao": "KGRK",
+        "name": "Fort Hood",
+        "state": "TX"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.4718835,
+          -95.0788593
+        ]
+      },
+      "properties": {
+        "icao": "KHGX",
+        "name": "Houston/Galveston",
+        "state": "TX"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.2730823,
+          -100.2802312
+        ]
+      },
+      "properties": {
+        "icao": "KDFX",
+        "name": "Laughlin AFB",
+        "state": "TX"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.6541242,
+          -101.814149
+        ]
+      },
+      "properties": {
+        "icao": "KLBB",
+        "name": "Lubbock",
+        "state": "TX"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.9433953,
+          -102.1894383
+        ]
+      },
+      "properties": {
+        "icao": "KMAF",
+        "name": "Midland/Odessa",
+        "state": "TX"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.3712815,
+          -100.4925227
+        ]
+      },
+      "properties": {
+        "icao": "KSJT",
+        "name": "San Angelo",
+        "state": "TX"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.3620014,
+          -98.9766884
+        ]
+      },
+      "properties": {
+        "icao": "KFDR",
+        "name": "Frederick",
+        "state": "OK"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.3333873,
+          -97.2778255
+        ]
+      },
+      "properties": {
+        "icao": "KTLX",
+        "name": "Oklahoma City",
+        "state": "OK"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.1750977,
+          -95.5642802
+        ]
+      },
+      "properties": {
+        "icao": "KINX",
+        "name": "Tulsa",
+        "state": "OK"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.7406166,
+          -98.1279409
+        ]
+      },
+      "properties": {
+        "icao": "KVNX",
+        "name": "Vance AFB",
+        "state": "OK"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.7608043,
+          -99.9688053
+        ]
+      },
+      "properties": {
+        "icao": "KDDC",
+        "name": "Dodge City",
+        "state": "KS"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.3667737,
+          -101.7004341
+        ]
+      },
+      "properties": {
+        "icao": "KGLD",
+        "name": "Goodland",
+        "state": "KS"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.996998,
+          -96.232618
+        ]
+      },
+      "properties": {
+        "icao": "KTWX",
+        "name": "Topeka",
+        "state": "KS"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.6545724,
+          -97.4431461
+        ]
+      },
+      "properties": {
+        "icao": "KICT",
+        "name": "Wichita",
+        "state": "KS"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.320966,
+          -98.4418559
+        ]
+      },
+      "properties": {
+        "icao": "KUEX",
+        "name": "Grand Island/Hastings",
+        "state": "NE"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.9579623,
+          -100.5759609
+        ]
+      },
+      "properties": {
+        "icao": "KLNX",
+        "name": "North Platte",
+        "state": "NE"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.3202803,
+          -96.3667971
+        ]
+      },
+      "properties": {
+        "icao": "KOAX",
+        "name": "Omaha",
+        "state": "NE"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4558185,
+          -98.4132046
+        ]
+      },
+      "properties": {
+        "icao": "KABR",
+        "name": "Aberdeen",
+        "state": "SD"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.1248485,
+          -102.8298157
+        ]
+      },
+      "properties": {
+        "icao": "KUDX",
+        "name": "Rapid City",
+        "state": "SD"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.5877467,
+          -96.7293674
+        ]
+      },
+      "properties": {
+        "icao": "KFSD",
+        "name": "Sioux Falls",
+        "state": "SD"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.7709329,
+          -100.7605532
+        ]
+      },
+      "properties": {
+        "icao": "KBIS",
+        "name": "Bismarck",
+        "state": "ND"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.5279417,
+          -97.3256654
+        ]
+      },
+      "properties": {
+        "icao": "KMVX",
+        "name": "Grand Forks (Mayville)",
+        "state": "ND"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.39303,
+          -100.8644378
+        ]
+      },
+      "properties": {
+        "icao": "KMBX",
+        "name": "Minot AFB",
+        "state": "ND"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.8537632,
+          -108.6068165
+        ]
+      },
+      "properties": {
+        "icao": "KBLX",
+        "name": "Billings",
+        "state": "MT"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.2064536,
+          -106.6252971
+        ]
+      },
+      "properties": {
+        "icao": "KGGW",
+        "name": "Glasgow",
+        "state": "MT"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.4595023,
+          -111.3855368
+        ]
+      },
+      "properties": {
+        "icao": "KTFX",
+        "name": "Great Falls",
+        "state": "MT"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.0412971,
+          -113.9864373
+        ]
+      },
+      "properties": {
+        "icao": "KMSX",
+        "name": "Missoula",
+        "state": "MT"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.1519308,
+          -104.8060325
+        ]
+      },
+      "properties": {
+        "icao": "KCYS",
+        "name": "Cheyenne",
+        "state": "WY"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.0660779,
+          -108.4773731
+        ]
+      },
+      "properties": {
+        "icao": "KRIW",
+        "name": "Riverton",
+        "state": "WY"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.7866156,
+          -104.5458126
+        ]
+      },
+      "properties": {
+        "icao": "KFTG",
+        "name": "Denver",
+        "state": "CO"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.0619824,
+          -108.2137012
+        ]
+      },
+      "properties": {
+        "icao": "KGJX",
+        "name": "Grand Junction",
+        "state": "CO"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.4595034,
+          -104.1816223
+        ]
+      },
+      "properties": {
+        "icao": "KPUX",
+        "name": "Pueblo",
+        "state": "CO"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.1497579,
+          -106.8239576
+        ]
+      },
+      "properties": {
+        "icao": "KABX",
+        "name": "Albuquerque",
+        "state": "NM"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.6341569,
+          -103.6186427
+        ]
+      },
+      "properties": {
+        "icao": "KFDX",
+        "name": "Cannon AFB",
+        "state": "NM"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.0768844,
+          -106.1200923
+        ]
+      },
+      "properties": {
+        "icao": "KHDX",
+        "name": "Holloman AFB",
+        "state": "NM"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.574449,
+          -111.198367
+        ]
+      },
+      "properties": {
+        "icao": "KFSX",
+        "name": "Flagstaff",
+        "state": "AZ"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.289111,
+          -111.6700092
+        ]
+      },
+      "properties": {
+        "icao": "KIWA",
+        "name": "Phoenix",
+        "state": "AZ"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.8937186,
+          -110.6304306
+        ]
+      },
+      "properties": {
+        "icao": "KEMX",
+        "name": "Tucson",
+        "state": "AZ"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.4953477,
+          -114.6567214
+        ]
+      },
+      "properties": {
+        "icao": "KYUX",
+        "name": "Yuma",
+        "state": "AZ"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.59083,
+          -112.86222
+        ]
+      },
+      "properties": {
+        "icao": "KICX",
+        "name": "Cedar City",
+        "state": "UT"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.2627795,
+          -112.4480081
+        ]
+      },
+      "properties": {
+        "icao": "KMTX",
+        "name": "Salt Lake City",
+        "state": "UT"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.4902104,
+          -116.2360436
+        ]
+      },
+      "properties": {
+        "icao": "KCBX",
+        "name": "Boise",
+        "state": "ID"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.1055967,
+          -112.6860487
+        ]
+      },
+      "properties": {
+        "icao": "KSFX",
+        "name": "Pocatello/Idaho Falls",
+        "state": "ID"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.7396933,
+          -116.8025529
+        ]
+      },
+      "properties": {
+        "icao": "KLRX",
+        "name": "Elko",
+        "state": "NV"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.7012894,
+          -114.8918277
+        ]
+      },
+      "properties": {
+        "icao": "KESX",
+        "name": "Las Vegas",
+        "state": "NV"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.7541931,
+          -119.4620597
+        ]
+      },
+      "properties": {
+        "icao": "KRGX",
+        "name": "Reno",
+        "state": "NV"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.4956958,
+          -121.6316557
+        ]
+      },
+      "properties": {
+        "icao": "KBBX",
+        "name": "Beale AFB",
+        "state": "CA"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.0979358,
+          -117.5608832
+        ]
+      },
+      "properties": {
+        "icao": "KEYX",
+        "name": "Edwards AFB",
+        "state": "CA"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.4986955,
+          -124.2918867
+        ]
+      },
+      "properties": {
+        "icao": "KBHX",
+        "name": "Eureka",
+        "state": "CA"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.4116386,
+          -119.1795641
+        ]
+      },
+      "properties": {
+        "icao": "KVTX",
+        "name": "Los Angeles",
+        "state": "CA"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.5011529,
+          -121.6778487
+        ]
+      },
+      "properties": {
+        "icao": "KDAX",
+        "name": "Sacramento",
+        "state": "CA"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.9189891,
+          -117.041814
+        ]
+      },
+      "properties": {
+        "icao": "KNKX",
+        "name": "San Diego",
+        "state": "CA"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.155152,
+          -121.8984577
+        ]
+      },
+      "properties": {
+        "icao": "KMUX",
+        "name": "San Francisco",
+        "state": "CA"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.3142088,
+          -119.6320903
+        ]
+      },
+      "properties": {
+        "icao": "KHNX",
+        "name": "San Joaquin Valley",
+        "state": "CA"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.8176452,
+          -117.6359743
+        ]
+      },
+      "properties": {
+        "icao": "KSOX",
+        "name": "Santa Ana Mountains",
+        "state": "CA"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8383137,
+          -120.3977805
+        ]
+      },
+      "properties": {
+        "icao": "KVBG",
+        "name": "Vandenberg AFB",
+        "state": "CA"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.8938762,
+          -159.5524585
+        ]
+      },
+      "properties": {
+        "icao": "PHKI",
+        "name": "Kauai",
+        "state": "HI"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.1254606,
+          -155.778054
+        ]
+      },
+      "properties": {
+        "icao": "PHKM",
+        "name": "Kohala",
+        "state": "HI"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1327531,
+          -157.1802807
+        ]
+      },
+      "properties": {
+        "icao": "PHMO",
+        "name": "Molokai",
+        "state": "HI"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.0950155,
+          -155.5688846
+        ]
+      },
+      "properties": {
+        "icao": "PHWA",
+        "name": "South Shore",
+        "state": "HI"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.0810766,
+          -122.7173334
+        ]
+      },
+      "properties": {
+        "icao": "KMAX",
+        "name": "Medford",
+        "state": "OR"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.6906118,
+          -118.8529301
+        ]
+      },
+      "properties": {
+        "icao": "KPDT",
+        "name": "Pendleton",
+        "state": "OR"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.7150308,
+          -122.9650542
+        ]
+      },
+      "properties": {
+        "icao": "KRTX",
+        "name": "Portland",
+        "state": "OR"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.116806,
+          -124.10625
+        ]
+      },
+      "properties": {
+        "icao": "KLGX",
+        "name": "Langley Hill",
+        "state": "WA"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.1945614,
+          -122.4957508
+        ]
+      },
+      "properties": {
+        "icao": "KATX",
+        "name": "Seattle/Tacoma",
+        "state": "WA"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.6803744,
+          -117.6267797
+        ]
+      },
+      "properties": {
+        "icao": "KOTX",
+        "name": "Spokane",
+        "state": "WA"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.791987,
+          -161.876539
+        ]
+      },
+      "properties": {
+        "icao": "PABC",
+        "name": "Bethel",
+        "state": "AK"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          65.0351238,
+          -147.5014222
+        ]
+      },
+      "properties": {
+        "icao": "PAPD",
+        "name": "Fairbanks/Pedro Dome",
+        "state": "AK"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.725833,
+          -151.351389
+        ]
+      },
+      "properties": {
+        "icao": "PAHG",
+        "name": "Kenai",
+        "state": "AK"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.6794558,
+          -156.6293335
+        ]
+      },
+      "properties": {
+        "icao": "PAKC",
+        "name": "King Salmon",
+        "state": "AK"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.46194,
+          -146.30111
+        ]
+      },
+      "properties": {
+        "icao": "PAIH",
+        "name": "Middleton Island",
+        "state": "AK"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.5114973,
+          -165.2949071
+        ]
+      },
+      "properties": {
+        "icao": "PAEC",
+        "name": "Nome",
+        "state": "AK"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.85214,
+          -135.552417
+        ]
+      },
+      "properties": {
+        "icao": "PACG",
+        "name": "Sitka/Biorka Island",
+        "state": "AK"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.455965,
+          144.8111022
+        ]
+      },
+      "properties": {
+        "icao": "PGUA",
+        "name": "Andersen AFB",
+        "state": "GU"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.73028,
+          -27.32167
+        ]
+      },
+      "properties": {
+        "icao": "LPLA",
+        "name": "Lajes Field, Azores",
+        "state": "NA"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.92417,
+          126.62222
+        ]
+      },
+      "properties": {
+        "icao": "RKJK",
+        "name": "Kunsan Air Base, South Korea",
+        "state": "SK"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.207652,
+          127.285614
+        ]
+      },
+      "properties": {
+        "icao": "RKSG",
+        "name": "Camp Humphreys, South Korea",
+        "state": "SK"
+      }
+    },
+    {
+      "type": "Radar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.307796,
+          127.903422
+        ]
+      },
+      "properties": {
+        "icao": "RODN",
+        "name": "Kadena Air Base, Japan",
+        "state": "JP"
+      }
+    }
+  ]
+}

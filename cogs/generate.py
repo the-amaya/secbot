@@ -148,7 +148,7 @@ class GenerateCog(commands.Cog):
             !gen tall drink of water
 
             This command only takes a prompt, no additonal options. no quotes required.
-            uses default options of 30 steps, cfg 12.5, 512x512px
+            uses default options of 20 steps, cfg 7, 512x512px
 
             to customize options use the generate command instead
         """
@@ -157,8 +157,8 @@ class GenerateCog(commands.Cog):
             "prompt": prompt,
             "width": 512,
             "height": 512,
-            "steps": 30,
-            "cfg_scale": 12.5,
+            "steps": 20,
+            "cfg_scale": 7,
             "sampler_index": "Euler a"
         }
 

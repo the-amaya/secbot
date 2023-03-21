@@ -16,28 +16,29 @@ def first_run():
         first_run_config = configparser.ConfigParser()
         first_run_config.read('example_settings.ini')
 
-        setting = input(f'your discord bot token')
-        with setting:
-            first_run_config.set('main_bot_settings', 'token', setting)
+        setting = ''
+        while not setting:
+            setting = input(f'your discord bot token:')
+        first_run_config.set('main_bot_settings', 'token', setting)
 
-        setting = input(f'the command character you want to use or [enter] for default !')
+        setting = input(f'the command character you want to use or [enter] for default !:')
         if setting:
             first_run_config.set('main_bot_settings', 'command_character', setting)
 
         setting = input(f'if you are using my sump pump project put its api url here. (you probably just want to hit '
-                        f'[enter] here for none)')
+                        f'[enter] here for none):')
         if setting:
             first_run_config.set('sump', 'sump_api_address', setting)
 
         setting = input(f"if you have a stable diffusion api running put its url here. example: "
-                        f"'http://automatic1111.example.org:7860'")
+                        f"http://automatic1111.example.org:7860 without quotes:")
         if setting:
             first_run_config.set('generate', 'api_url', setting)
 
         setting = input(f"if you want to use the weather cog you need to provide a user agent for the api calls. "
-                        f"example: 'my discord bot me@example.com'")
+                        f"example: 'my discord bot me@example.com' include quotes around the string:")
         if setting:
-            first_run_config.set('generate', 'api_url', setting)
+            first_run_config.set('weather', 'useragent', setting)
 
         # present the updated config to the user for review
         for section in first_run_config.sections():

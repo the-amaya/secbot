@@ -20,7 +20,7 @@ class Cameras(commands.Cog):
 
     @commands.Cog.listener()
     async def on_ready(self):
-        print('Cog management is ready.')
+        print('Cog cameras is ready.')
 
     @commands.command()
     async def camera(self, ctx, cam='list'):

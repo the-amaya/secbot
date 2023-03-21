@@ -16,19 +16,28 @@
 
 ## setup/install
 #### automatic install:
-you can try using the included setup scripts, they may or may not work and are untested as of me writing this.
+###### ubuntu 22.04:
+1. Log in as the user you want the bot to run as. the bot will be installed in `~/secbot`
+2. run `wget -O - https://raw.githubusercontent.com/the-amaya/secbot/main/setup.sh | bash`
+3. the setup script will check to see if you have python3 and python3-venv available, and if not will attempt to install them (the script will prompt for a sudo password to perform the `apt` install)
+4. the script will then clone the github project or update it if it is already downloaded and then run main.py
+5. for subsequent runs of the bot run `bash ~/secbot/setup.sh` this will check for updates and start the bot.
 
 #### manual install:
-download this repository, install the requirements from requirements.txt, rename example_settings.ini to settings.ini and edit accordingly and finally run main.py
+###### any os with python3 available:
+1. ensure you have python3 and (optionally) python3-venv installed and available to the user you want to run the bot under.
+2. as the user you want to run the bot under, clone this repository. on ubuntu this is `git clone https://github.com/the-amaya/secbot secbot`
+3. (optionally) create a python venv in the secbot folder. on ubuntu `cd secbot` `python3 -m venv env`
+4. install the requirements from requirements.txt. on ubuntu activate the environment `source env/bin/activate` then install the requirements with pip 'pip install -r requirements.txt'
+5. run `main.py` however is appropriate for your system, possibly `python main.py` or `python3 main.py`
 
 ## requirements
-Beyond the required packages listed in requirements.txt some cogs depend on additional settings and external APIs
-These cogs are disabled by default but can be enabled by editing main.py and simply uncommenting the lines
-
-- cameras - works for reolink cameras
-- generate - relies on a private hosted stable diffusion api. see https://github.com/AUTOMATIC1111/stable-diffusion-webui
-- sump - relies on my sump pump monitoring project https://github.com/the-amaya/sumpPump (which is likely not updated)
-- weather - the weather cog now requires you to set a user-agent string in the settings. (this cog is not disabled though)
+- python3
+- packages listed in requirements.txt
+- some cogs depend on additional settings and external APIs
+  - generate - relies on a private hosted stable diffusion api. disabled by default. if you provide an api url during setup or in setting.ini this cog will be enabled on bot startup. see https://github.com/AUTOMATIC1111/stable-diffusion-webui
+  - sump - relies on my sump pump monitoring project. disabled by default. if you provide an api url during setup or in setting.ini this cog will be enabled on bot startup. https://github.com/the-amaya/sumpPump (which is likely not updated)
+  - weather - the weather cog now requires you to set a user-agent string in the settings. (this cog is disabled if the user agent is left blank. see [the cameras cog](#the-cameras-cog))
 
 ## Cogs
 - botsettings
@@ -52,7 +61,7 @@ this cog includes functions to view/edit bot settings (the edit settings command
 ![usage example](https://raw.githubusercontent.com/the-amaya/secbot/main/demo/botsettings2.png)
 
 ### The `cameras` cog
-grab still images from a reolink camera. this cog is disabled by default. to enable it edit main.py and uncomment it.
+grab still images from a reolink camera. this cog is disabled by default and requires manual configuration. you will need to create `cameras.ini` see `example_cameras.ini` for the basic layout. if `cameras.ini` exists the cog is loaded.
 
 ![usage example](https://raw.githubusercontent.com/the-amaya/secbot/main/demo/cameras.png)
 
@@ -77,7 +86,7 @@ this cog currently just has the 8ball but will eventually have other games
 ![usage example](https://raw.githubusercontent.com/the-amaya/secbot/main/demo/games.png)
 
 ### The `generate` cog
-this cog interfaces with a stable diffusion API to generate images from prompts. This cog is disabled by default but if you are hosting your own stable diffusion API and want to use this you can edit main.py and uncomment the line for cogs.generate. dont forget to edit settings.ini as well and put in the address for your API.
+this cog interfaces with a stable diffusion API to generate images from prompts. This cog is disabled by default but if you provide your API url during setup or set it in settings.ini this cog will be enabled on bot startup automatically
 
 ![usage example](https://raw.githubusercontent.com/the-amaya/secbot/main/demo/generate.png)
 
@@ -92,7 +101,7 @@ This cog tracks user and bot stats
 ![usage example](https://raw.githubusercontent.com/the-amaya/secbot/main/demo/stats.png)
 
 ### The `sump` cog
-This cog is designed to interface with https://github.com/the-amaya/sumpPump -that page likely needs updated to include what this interfaces with. if someone is actually interested in building the sumpPump project and interfacing a version of this bot with it let me know, otherwise I will get to it when I get to it.
+This cog is designed to interface with https://github.com/the-amaya/sumpPump -that page likely needs updated to include what this interfaces with. if someone is actually interested in building the sumpPump project and interfacing a version of this bot with it let me know, otherwise I will get to it when I get to it. This cog is disabled by default but if you provide your API url during setup or set it in settings.ini this cog will be enabled on bot startup automatically
 
 ![usage example](https://raw.githubusercontent.com/the-amaya/secbot/main/demo/sump.png)
 
@@ -102,7 +111,7 @@ This cog provides basic utilities, currently ping and the about command
 ![usage example](https://raw.githubusercontent.com/the-amaya/secbot/main/demo/utilities.png)
 
 ### The `weather` cog
-This cog provides weather related commands including radar and forecast. this cog now requires a user-agent string be set in the settings.ini file. you only need to provide the string, i.e. "my_discord_bot.example.com, contact@example.com" without any prefix
+This cog provides weather related commands including radar and forecast. this cog now requires a user-agent string be set. you can do this during setup or set it manually in the settings.ini file. you only need to provide the string, i.e. "my_discord_bot.example.com, contact@example.com" without any prefix
 
 This cog will now take a US postal code or city name to determine location, and should be much faster finding the closest radar.
 

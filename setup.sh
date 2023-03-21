@@ -1,35 +1,31 @@
 #!/bin/bash
 
-#set install path
-INSTALL_PATH=~/secbot
+#Configure variables here
+GITHUB_PROJECT="the-amaya/secbot"
+INSTALL_DIR="secbot"
 
-#clone project if not already done
-if [ ! -d $INSTALL_PATH ]; then
-   git clone https://github.com/the-amaya/secbot $INSTALL_PATH
+#Check if project is already downloaded, if not, download it
+cd ~
+if [ -d "$INSTALL_DIR" ]; then
+    cd $INSTALL_DIR
+    git pull
+else
+    git clone https://github.com/$GITHUB_PROJECT $INSTALL_DIR
 fi
 
-#check for updates
-cd $INSTALL_PATH
-git pull
-
-#create virtual environment if not already done
-if [ ! -d $INSTALL_PATH/venv ]; then
-   python -m venv $INSTALL_PATH/venv
+# Check if python3 and python3-venv are installed
+if ! [ -x "$(command -v python3)" ]; then
+  sudo apt install python3 -y
+fi
+if ! [ -x "$(command -v python3-venv)" ]; then
+  sudo apt install python3-venv -y
 fi
 
-#activate virtual environment
-source $INSTALL_PATH/venv/bin/activate
+# Create virtual environment and install requirements
+cd $INSTALL_DIR
+python3 -m venv env
+source env/bin/activate
+pip install -r requirements.txt
 
-#install requirements
-pip install -r $INSTALL_PATH/requirements.txt
-
-#check for settings.ini
-if [ ! -f $INSTALL_PATH\settings.ini ]; then
-    echo you need to configure your settings before you can run the bot
-    echo you can rename example_settings.ini to settings.ini
-    echo and then edit settings.ini with at least your bot token. all other settings use sane values
-    exit
-fi
-
-#launch main.py
-python $INSTALL_PATH/main.py
+# Run main.py
+python main.py

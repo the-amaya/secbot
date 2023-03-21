@@ -58,7 +58,7 @@ class Weather(commands.Cog):
     @commands.command()
     async def forecast(self, ctx, location):
         """
-        provide a US postal code and get the upcoming forecast
+        provide a US postal code or city and get the upcoming forecast
         """
         try:
             location = self.geolocator.geocode(location, exactly_one=True, country_codes='us')

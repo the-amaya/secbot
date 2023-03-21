@@ -11,7 +11,7 @@ import os
 class Cameras(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
-        self.settings_file_name = 'settings.ini'
+        self.settings_file_name = 'cameras.ini'
         self.config = configparser.ConfigParser()
         self.config.read(self.settings_file_name)
         self.cameras = {}

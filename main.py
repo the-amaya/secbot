@@ -76,33 +76,18 @@ startup_extensions = [
 
 
 def optional_extensions():
-    try:
-        if os.path.exists("cameras.ini"):
-            startup_extensions.append('cogs.cameras')
-    except:
-        print("I was not able to find the cameras.ini file, the cameras cog will not be loaded")
-    try:
-        if config["sump"]["sump_api_address"] != '':
-            # need to check if that is actually an url
-            startup_extensions.append('cogs.sump')
-    except:
-        print("sump is unconfigured, skipping...")
-    try:
-        if config["generate"]["api_url"] != '':
-            # need to check if that is actually an url
-            startup_extensions.append('cogs.generate')
-    except:
-        print("generate is unconfigured, skipping...")
-    try:
-        if config["weather"]["useragent"] != '':
-            startup_extensions.append('cogs.weather')
-    except:
-        print("weather user agent is not configured, skipping...")
-    try:
-        if config["textgpt"]["api_url"] != '':
-            startup_extensions.append('cogs.textgpt')
-    except:
-        print("textgpt url is not configured, skipping...")
+    if os.path.exists("cameras.ini"):
+        startup_extensions.append('cogs.cameras')
+    if config["sump"]["sump_api_address"] != '':
+        # need to check if that is actually an url
+        startup_extensions.append('cogs.sump')
+    if config["generate"]["api_url"] != '':
+        # need to check if that is actually an url
+        startup_extensions.append('cogs.generate')
+    if config["weather"]["useragent"] != '':
+        startup_extensions.append('cogs.weather')
+    if config["textgpt"]["api_url"] != '':
+        startup_extensions.append('cogs.textgpt')
 
 
 optional_extensions()

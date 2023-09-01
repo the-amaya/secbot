@@ -22,24 +22,30 @@ def first_run():
             setting = input(f'your discord bot token:')
         first_run_config.set('main_bot_settings', 'token', setting)
 
-        setting = input(f'the command character you want to use or [enter] for default !:')
+        setting_command_character = input(f'the command character you want to use or [enter] for default !:')
         if setting:
-            first_run_config.set('main_bot_settings', 'command_character', setting)
+            first_run_config.set('main_bot_settings', 'command_character', setting_command_character)
 
-        setting = input(f'if you are using my sump pump project put its api url here. (you probably just want to hit '
+        setting_sump = input(f'if you are using my sump pump project put its api url here. (you probably just want to hit '
                         f'[enter] here for none):')
         if setting:
-            first_run_config.set('sump', 'sump_api_address', setting)
+            first_run_config.set('sump', 'sump_api_address', setting_sump)
 
-        setting = input(f"if you have a stable diffusion api running put its url here. example: "
+        setting_stable = input(f"if you have a stable diffusion api running put its url here. example: "
                         f"http://automatic1111.example.org:7860 without quotes:")
         if setting:
-            first_run_config.set('generate', 'api_url', setting)
+            first_run_config.set('generate', 'api_url', setting_stable)
 
-        setting = input(f"if you want to use the weather cog you need to provide a user agent for the api calls. "
+        setting_weather = input(f"if you want to use the weather cog you need to provide a user agent for the api calls. "
                         f"example: 'my discord bot me@example.com' include quotes around the string:")
         if setting:
-            first_run_config.set('weather', 'useragent', setting)
+            first_run_config.set('weather', 'useragent', setting_weather)
+
+        setting_text = input(
+            f"if you want to use the textgen cog you need to provide an API url for the api calls. "
+            f"example:\"http://text-generation-webui.example.org:5000 without quotes:")
+        if setting:
+            first_run_config.set('textgpt', 'api_url', setting_text)
 
         # present the updated config to the user for review
         for section in first_run_config.sections():

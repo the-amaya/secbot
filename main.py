@@ -66,7 +66,7 @@ bot = commands.Bot(command_character, intents=intents)
 
 startup_extensions = [
     "cogs.botsettings",
-    "cogs.cog_manager",
+    "cogs.loadunloadcogs",
     "cogs.custom_reactions",
     "cogs.cute",
     "cogs.economy",

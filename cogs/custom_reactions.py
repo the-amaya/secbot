@@ -17,6 +17,10 @@ class CustomReactions(commands.Cog):
                             "reaction_message TEXT)")
 
     @commands.Cog.listener()
+    async def on_ready(self):
+        print('Cog custom_reactions is ready.')
+
+    @commands.Cog.listener()
     async def on_message(self, message):
         # make sure the bot doesn't react to itself
         if message.author.id == self.bot.user.id:

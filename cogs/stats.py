@@ -5,6 +5,7 @@ import sqlite3
 
 # TODO ping needs moved out of this cog. maybe into a utility cog
 # TODO fix the user stats to be per-server
+# TODO what is @staticmethod and should i be using it elsewhere?
 
 conn = sqlite3.connect('stats.db')
 c = conn.cursor()
@@ -54,12 +55,20 @@ class Stats(commands.Cog):
         stats_embed.add_field(name="Messages Sent", value=result[1])
         await ctx.send(embed=stats_embed)
 
+    @commands.command(name='ping', help='check the bot is responding as well as its latency')
+    async def ping(self, ctx):
+        try:
+            latency = self.bot.latency * 1000
+        except:
+            latency = '-latency-'
+        await ctx.send(f'Pong! 🏓 {latency:.2f} ms')
+
     @commands.command(name='botstats')
     async def botstats(self, ctx):
         """Display bot statistics"""
         guilds = len(self.bot.guilds)
         members = len(list(self.bot.get_all_members()))
-        channels = len([d for d in self.bot.get_all_channels()])
+        channels = len([c for c in self.bot.get_all_channels()])
         uptime = await self.pretty_time_delta(time.time() - self.bot.start_time)
         latency = self.bot.latency * 1000
         # Display stats
@@ -69,6 +78,15 @@ class Stats(commands.Cog):
         embed.add_field(name='Channels', value=channels)
         embed.add_field(name='Uptime', value=uptime)
         embed.add_field(name='Latency', value=f'{latency:.2f} ms')
+        await ctx.send(embed=embed)
+
+    @commands.command(name='about')
+    async def about(self, ctx):
+        """
+        Display the about info for the bot
+        """
+        embed = discord.Embed(title='About', color=discord.Colour.blue())
+        embed.add_field(name='project home', value='https://github.com/the-amaya/secbot')
         await ctx.send(embed=embed)
 
     @staticmethod

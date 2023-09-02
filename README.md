@@ -45,7 +45,7 @@
 - python3
 - packages listed in requirements.txt
 - some cogs depend on additional settings and external APIs
-    - cameras - the cameras cog requires manual confiuration, see [the cameras cog](#the-cameras-cog)) for more info
+    - cameras - the cameras cog requires manual confiuration, see [the cameras cog](#the-cameras-cog) for more info
     - generate - relies on a private hosted stable diffusion api. disabled by default. if you provide an api url during
       setup or in setting.ini this cog will be enabled on bot startup.
       see https://github.com/AUTOMATIC1111/stable-diffusion-webui

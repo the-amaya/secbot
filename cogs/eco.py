@@ -3,7 +3,7 @@ from discord.ext import commands
 import sqlite3
 
 
-class Economy(commands.Cog):
+class Eco(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
         self.conn = sqlite3.connect('economy.db')
@@ -68,4 +68,4 @@ class Economy(commands.Cog):
 
 
 async def setup(bot):
-    await bot.add_cog(Economy(bot))
+    await bot.add_cog(Eco(bot))

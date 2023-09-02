@@ -23,22 +23,24 @@ def first_run():
         first_run_config.set('main_bot_settings', 'token', setting)
 
         setting_command_character = input(f'the command character you want to use or [enter] for default !:')
-        if setting:
+        if setting_command_character:
             first_run_config.set('main_bot_settings', 'command_character', setting_command_character)
+        else:
+            first_run_config.set('main_bot_settings', 'command_character', '!')
 
         setting_sump = input(f'if you are using my sump pump project put its api url here. (you probably just want to hit '
                         f'[enter] here for none):')
-        if setting:
+        if setting_sump:
             first_run_config.set('sump', 'sump_api_address', setting_sump)
 
         setting_stable = input(f"if you have a stable diffusion api running put its url here. example: "
                         f"http://automatic1111.example.org:7860 without quotes:")
-        if setting:
+        if setting_stable:
             first_run_config.set('generate', 'api_url', setting_stable)
 
         setting_weather = input(f"if you want to use the weather cog you need to provide a user agent for the api calls. "
                         f"example: 'my discord bot me@example.com' include quotes around the string:")
-        if setting:
+        if setting_weather:
             first_run_config.set('weather', 'useragent', setting_weather)
 
         setting_text = input(
@@ -75,7 +77,7 @@ startup_extensions = [
     "cogs.loadunloadcogs",
     "cogs.custom_reactions",
     "cogs.cute",
-    "cogs.economy",
+    "cogs.eco",
     "cogs.games",
     "cogs.stats"
 ]

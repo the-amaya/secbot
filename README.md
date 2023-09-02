@@ -61,7 +61,7 @@
 - cameras
 - custom_reactions
 - cute
-- economy
+- eco
 - games
 - generate
 - loadunloadcogs
@@ -97,9 +97,14 @@ this cog will rate how 'cute' a user is
 
 ![usage example](https://raw.githubusercontent.com/the-amaya/secbot/main/demo/cute.png)
 
-### The `economy` cog
+### The `eco` cog
 
-this cog doesnt do much yet, but its commands all work
+this cog provides the basis for the economy. Currently it supports the following commands:
+- balance: check your balance or the balance of another user
+- transfer: transfer coins from your balance to another user
+- earn: earn coins (mostly for testing, this command will go away as more function is implemented)
+
+The economy data is stored in a database for use with other cogs.
 
 ![usage example](https://raw.githubusercontent.com/the-amaya/secbot/main/demo/economy.png)
 

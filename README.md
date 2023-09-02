@@ -45,6 +45,7 @@
 - python3
 - packages listed in requirements.txt
 - some cogs depend on additional settings and external APIs
+    - cameras - the cameras cog requires manual confiuration, see [the cameras cog](#the-cameras-cog)) for more info
     - generate - relies on a private hosted stable diffusion api. disabled by default. if you provide an api url during
       setup or in setting.ini this cog will be enabled on bot startup.
       see https://github.com/AUTOMATIC1111/stable-diffusion-webui
@@ -52,7 +53,7 @@
       in setting.ini this cog will be enabled on bot startup. https://github.com/the-amaya/sumpPump (which is likely not
       updated)
     - weather - the weather cog now requires you to set a user-agent string in the settings. (this cog is disabled if
-      the user agent is left blank. see [the cameras cog](#the-cameras-cog))
+      the user agent is left blank. see [the weather cog](#the-weather-cog))
     - textgpt - relies on a private hosted LLM, I am using https://github.com/oobabooga/text-generation-webui
 
 ## Cogs

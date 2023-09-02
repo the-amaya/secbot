@@ -18,7 +18,7 @@ class Eco(commands.Cog):
             PRIMARY KEY (guild_id, user_id))
         """)
 
-    @commands.command()
+    @commands.command(name='balance', help='Check your current balance')
     async def balance(self, ctx, user: discord.Member = None):
         user = user or ctx.author
         self.c.execute("SELECT coins FROM coins WHERE guild_id = ? AND user_id = ?", (ctx.guild.id, user.id))
@@ -28,7 +28,7 @@ class Eco(commands.Cog):
         else:
             await ctx.send(f'{user.display_name} has {balance[0]} coins.')
 
-    @commands.command()
+    @commands.command(name='transfer', help='transfer coins to another user. transfer <coins> <user>')
     async def transfer(self, ctx, user: discord.Member, amount: int):
         # subtract coins from author
         self.c.execute("""
@@ -49,7 +49,7 @@ class Eco(commands.Cog):
         self.conn.commit()  # need to commit after every UPDATE operation
         await ctx.send(f'{ctx.author.display_name} has given {user.display_name} {amount} coins.')
 
-    @commands.command()
+    @commands.command(name='earn', help='you can earn coins, simply specify the number you want!')
     async def earn(self, ctx, amount: int):
         # add coins to the author
         self.c.execute("""

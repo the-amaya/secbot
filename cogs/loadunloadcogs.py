@@ -5,6 +5,7 @@ from discord.ext import commands
 
 
 class LoadUnloadCogs(commands.Cog):
+    "provides functions to load, unload or reload cogs"
     def __init__(self, bot):
         self.bot = bot
 

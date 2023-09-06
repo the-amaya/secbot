@@ -48,6 +48,7 @@ class economyBackend():
 
 
 class Eco(commands.Cog):
+    "The basic economy functions"
     def __init__(self, bot):
         self.bot = bot
         self.db = economyBackend()

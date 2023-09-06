@@ -6,6 +6,7 @@ import random
 
 
 class Games(commands.Cog):
+    "general games"
 
     def __init__(self, bot):
         self.bot = bot

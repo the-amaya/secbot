@@ -24,6 +24,7 @@ c.execute("""CREATE TABLE IF NOT EXISTS server_stats (
 
 
 class Stats(commands.Cog):
+    "this cog tracks and allows you to view user and bot stats."
     def __init__(self, bot):
         self.bot = bot
 

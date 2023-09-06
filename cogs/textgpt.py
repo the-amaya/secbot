@@ -10,7 +10,7 @@ import aiohttp
 import configparser
 
 
-class textgpt(commands.Cog):
+class TextGPT(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
         self.queue = queue.Queue()
@@ -170,4 +170,4 @@ class textgpt(commands.Cog):
 
 
 async def setup(bot):
-    await bot.add_cog(textgpt(bot))
+    await bot.add_cog(TextGPT(bot))

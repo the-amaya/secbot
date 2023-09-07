@@ -4,6 +4,10 @@ import sqlite3
 
 
 class economyBackend:
+    """this class provides economy functions that can be used in other cogs. should be something like"""
+    """from eco import economyBackend as db or something like that. see the command cog class below for"""
+    """usage examples. checkBalance returns an int or none, addBalance, subBalance and transfer will return"""
+    """true on success or false on failure. currently the only failure is insufficent funds"""
     def __init__(self):
         self.conn = sqlite3.connect('economy.db')
         self.c = self.conn.cursor()
@@ -17,7 +21,7 @@ class economyBackend:
             PRIMARY KEY (guild_id, user_id))
         """)
 
-    def checkBalance(self, server: int, user: int) -> int:
+    def checkBalance(self, server: int, user: int) -> int | None:
         self.c.execute("SELECT coins FROM coins WHERE guild_id = ? AND user_id = ?", (server, user))
         balance = self.c.fetchone()
         return balance[0]

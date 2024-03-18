@@ -66,6 +66,7 @@
 - games
 - generate
 - loadunloadcogs
+- Scryfall Commands
 - stats
 - sump
 - textgpt
@@ -128,6 +129,21 @@ this cog provides functions to load, unload and reload other cogs. this can be u
 changes to the cog code itself.
 
 ![usage example](https://raw.githubusercontent.com/the-amaya/secbot/main/demo/loadunloadcogs.png)
+
+### The `Scryfall Commands` cog
+
+This cog allows users to lookup Magic: The Gathering Cards via the Scryfall API
+
+The following commands are provided:
+
+- card_name_search {search-string}
+  - Get a list of possible matches using an autocomplete search api on Scryfall
+- card_search
+  - Look up Magic: The Gathering card information on Scryfall by name. returns the first result
+- random_card
+  - Fetch and display a random Magic: The Gathering card. card.
+- random_commander
+  - Fetches a random Magic: The Gathering commander.
 
 ### The `stats` cog
 

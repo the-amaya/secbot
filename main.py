@@ -79,7 +79,8 @@ startup_extensions = [
     "cogs.cute",
     "cogs.eco",
     "cogs.games",
-    "cogs.stats"
+    "cogs.stats",
+    "cogs.scryfall"
 ]
 
 
